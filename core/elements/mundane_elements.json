@@ -4,13 +4,13 @@
 	label: "Peculiar Rumour",
 	description: "This might lead me to someone I need; or it might mean something else entirely. [Explore with a Rumour to follow up on it.]",
 	aspects:{ingredient:1, secrethistories:1,moth:1},
-	lifetime: 0
+	lifetime: 60
 	},
 		{id: "favour",
 	label: "A Favour from Authority",
 	description: "I've learnt something that will earn me a favour, once only. [This will preserve you or a Follower from imprisonment... but it cannot be relied on.] ",
 	aspects:{suspicious:1},
-	lifetime: 0
+	lifetime: 300
 	},
 		{id: "mistakenidentity",
 	label: "A Case of Mistaken Identity",
@@ -68,7 +68,7 @@
             label: "Snare",
             aspects:{snarelevel:1},
             description: "I have prepared an ambush for a rival. [A Snare can be used on any Independent, or to defeat an Independent's attempt on any Vault.]",
-			lifetime: 0
+			lifetime: 300
         }
 ]
 };
