@@ -35,7 +35,7 @@
             {advancement:1,heart:1,influence:1},
             description: "Exercise, or something rarer, has invigorated me. [Use with another Vitality to improve your abilities. It lasts only three minutes, if unused.]",
 			xtriggers:{upgradeinfluence:influenceheartc},
-		lifetime: 180
+		lifetime: 0
         },
 						 {
             id: "vitalityplus",
@@ -44,7 +44,7 @@
             {advancement:1,heart:2,influence:1},
             description: "I am ready to improve. [Use this with your Strength skill to improve the skill and gain Health. It lasts up to five minutes before it decays back to a Vitality.]",
 			xtriggers:{upgradeinfluence:influenceheartc},
-		lifetime: 300,
+		lifetime: 0,
 		decayTo:"vitality"
         },
 		
@@ -153,7 +153,7 @@
 			slots: [{id:"moreerudition",label:"More Erudition",actionId:"study",description: "With enough Erudition - or sometimes something more exotic -  I can increase my Reason.",required:{erudition:1,influencelantern:1}}],
             aspects: {advancement:1,lantern:1,influence:1},
             description: "I soak up knowledge as a shadow soaks up light. I may be close to advancement. [Erudition can be used with Study to gain Reason. It lasts only three minutes, if unused.]",
-lifetime: 180,
+lifetime: 0,
 	xtriggers:{upgradeinfluence:influencelanternc},
         },
 		
@@ -163,7 +163,7 @@ lifetime: 180,
           aspects:
             {advancement:1,lantern:2,influence:1},
             description: "I am ready to improve. [Use this with your Scholarship skill to improve the skill and gain Reason. It lasts up to five minutes before it decays back to an Erudition.]",
-		lifetime: 300,
+		lifetime: 0,
 			xtriggers:{upgradeinfluence:influencelanternc},
 			decayTo:"erudition"
         },
@@ -215,7 +215,7 @@ lifetime: 180,
             aspects:
             {advancement:1,moth:1,influence:1},
             description: "My emotions run higher than usual. There are things I'll never understand, and those things will always be precious, but just now I am closer to them. [Glimmering can be used with Study to gain Passion. It lasts only three minutes, if unused.]",
-			lifetime: 180,
+			lifetime: 0,
 			xtriggers:{upgradeinfluence:influencemothc}
         },
 		
@@ -225,7 +225,7 @@ lifetime: 180,
           aspects:
             {advancement:1,moth:2,influence:1},
             description: "I am ready to improve. [Use this with your Imagination skill to improve the skill and gain Passion. It lasts up to five minutes before it decays back to a Glimmering.]",
-		lifetime: 300,
+		lifetime: 0,
 			xtriggers:{upgradeinfluence:influencemothc},
 			decayTo:"glimmering"
         },
