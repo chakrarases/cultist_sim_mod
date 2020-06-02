@@ -424,7 +424,7 @@ maxexecutions:1
 	{id: "institutephysicianwork",
 	label: "Work at the Institute",
 	  requirements: {institutephysicianjob: 1,ritual:-1},
-		effects: { funds: 4},
+		effects: { funds: 2},
 	actionId:"work",
         startdescription: "There is a dank and clinging smell to the Institute halls that never quite leaves one. Perhaps it is the paint. Perhaps it is the patients. Perhaps it is something in the walls.",
         description: "I have done some good. My patients are quieter than when I began.",
@@ -479,7 +479,7 @@ maxexecutions:1
         actionId: "work",
         requirements: {health: 1,healthskill:3,ritual:-1,job:-1,benefactor:-1},
         effects: {
-            funds: 5,vitality:1
+            funds: 1,vitality:1
         },
 		aspects:{employment:1},
         startdescription: "Once again I put my strength to use.",
