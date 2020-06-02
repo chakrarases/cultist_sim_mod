@@ -479,7 +479,7 @@ maxexecutions:1
         actionId: "work",
         requirements: {health: 1,healthskill:3,ritual:-1,job:-1,benefactor:-1},
         effects: {
-            funds: 1,vitality:1
+            funds: 5,vitality:1
         },
 		aspects:{employment:1},
         startdescription: "Once again I put my strength to use.",
