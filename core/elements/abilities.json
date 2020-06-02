@@ -354,7 +354,7 @@ lifetime: 180,
 		description: "I'm happy, I think. [Contentment defends against Dread; but Contentment doesn't last.]",
 					slots:[{id:"with",label:"With",description:"Perhaps I can use my Contentment to strengthen a positive influence.",required:{influencelantern:1,influenceheart:1,influencewinter:1,influenceforge:1},actionId:"study"},
 			{id:"knowledge",label:"Knowledge",description:"I must understand the influences at work, if I am to strengthen or to subvert them. [You'll need a significant grounding in the relevant lore.]",required:{fragmentheartc:1,fragmentheartd:1,fragmenthearte:1,fragmentheartf:1,fragmentheartg:1},actionId:"study"}],
-		lifetime: 60,
+		lifetime: 0,
 			xtriggers:{upgradeinfluence:influenceheartc}
 		},
 					
