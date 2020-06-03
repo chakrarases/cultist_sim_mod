@@ -4,7 +4,7 @@
         id: "thugedgeminor",
             label: "A Hulking Fellow",
             aspects:
-            {mortal: 1,hireling:1,follower:1,edge:3},
+            {mortal: 1,hireling:1,follower:1,edge:6},
               description: "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
 			xtriggers: {hiring: thugedgeminor,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
@@ -13,7 +13,7 @@
         id: "thugmothminor",
             label: "A Shifty Woman",
             aspects:
-            {mortal: 1,hireling:1,follower:1,moth:3},
+            {mortal: 1,hireling:1,follower:1,moth:6},
               description: "'I get the job done.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
 			xtriggers: {hiring: thugmothminor,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
@@ -22,7 +22,7 @@
         id: "thugedge",
             label: "Professional Muscle",
             aspects:
-            {mortal: 1,hireling:1,follower:1,edge:5},
+            {mortal: 1,hireling:1,follower:1,edge:10},
               description: "'I'll break them in half.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
 			xtriggers: {hiring: thugedge,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
@@ -31,7 +31,7 @@
         id: "thugforgeedge",
             label: "A Bomb-Maker",
             aspects:
-            {mortal: 1,hireling:1,follower:1,forge:5,edge:3},
+            {mortal: 1,hireling:1,follower:1,forge:10,edge:6},
             description: "'Perhaps we shouldn't discuss politics just yet.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
 			xtriggers: {hiring:thugforgeedge,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
@@ -40,7 +40,7 @@
         id: "thugknock",
             label: "An Entry Consultant",
             aspects:
-            {mortal: 1,hireling:1,follower:1,knock:5},
+            {mortal: 1,hireling:1,follower:1,knock:10},
             description: "'I'm good with doors. [This Hireling may be useful for some Expeditions.]'",
 			xtriggers: {hiring:thugknock,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
@@ -49,7 +49,7 @@
         id: "thuglanternmoth",
             label: "A Fortune-Teller",
             aspects:
-            {mortal: 1,hireling:1,follower:1,lantern:5,moth:3},
+            {mortal: 1,hireling:1,follower:1,lantern:10,moth:6},
             description: "'I see things. I see that you're different.' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
 			xtriggers: {hiring:thuglanternmoth,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
@@ -58,7 +58,7 @@
         id: "thugmoth",
             label: "An Experienced Swindler",
             aspects:
-            {mortal: 1,hireling:1,follower:1,moth:5,grail:1},
+            {mortal: 1,hireling:1,follower:1,moth:10,grail:2},
             description: "'How delightful to be working with you!' [This Hireling may be useful for some Expeditions, and can help with Hunters and Annoyances.]",
 			xtriggers: {hiring:thugmoth,killmortal:corpse,derangemortal:lunatic,capturefollower:generic_p},
 			lifetime:0
